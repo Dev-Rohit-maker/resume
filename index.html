@@ -3,75 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Rohit Sharma - Freelance Videographer & Editor Portfolio">
-    <title>Rohit Sharma - Videographer & Editor</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <title>Rohit Sharma - Resume</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+        h1, h2 {
+            color: #4a4a4a;
+        }
+        h1 {
+            border-bottom: 2px solid #6c757d;
+            padding-bottom: 10px;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            color: #5a5a5a;
+        }
+        .contact-info span {
+            margin-bottom: 5px;
+        }
+        .section {
+            margin-bottom: 30px;
+            opacity: 0;
+            transform: translateX(-20px);
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        a {
+            color: #5a6268;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #343a40;
+        }
+        h3 {
+            color: #5a6268;
+        }
+    </style>
 </head>
 <body>
-    <header id="main-header">
-        <div class="container">
-            <h1>Rohit Sharma</h1>
-            <p>B.Tech (CSE) | Freelance Videographer & Editor</p>
+    <div class="container">
+        <h1>Rohit Sharma</h1>
+        <div class="contact-info">
+            <span>Delhi Technical University, Greater Noida, UP, India</span>
+            <span>rohit.rsware@gmail.com</span>
+            <span>+91 9811885542</span>
+            <span><a href="https://www.linkedin.com/in/rohit-sharma-601557304" target="_blank">LinkedIn Profile</a></span>
         </div>
-    </header>
 
-    <nav id="navbar">
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <section id="about" class="container fade-in">
-        <h2>About Me</h2>
-        <p>I am Rohit Sharma, a passionate and results-driven B.Tech (CSE) student at Delhi Technical University. I specialize in video editing and production, with a strong ability to create engaging content. I enjoy collaborating with clients to bring their creative ideas to life.</p>
-    </section>
-
-    <section id="skills" class="container fade-in">
-        <h2>Skills</h2>
-        <ul class="skills-list">
-            <li>Video Editing (Adobe Premiere Pro, VN Edit, Capcut)</li>
-            <li>Videography (Cinematic shots with Samsung S23)</li>
-            <li>Communication & Collaboration</li>
-            <li>Time Management & Problem Solving</li>
-        </ul>
-    </section>
-
-    <section id="experience" class="container fade-in">
-        <h2>Experience</h2>
-        <div class="job">
-            <h3>Freelance Videographer & Editor <span>(2024 - Present)</span></h3>
-            <p>Managed all aspects of video production for clients, including shooting, editing, and post-production.</p>
+        <div class="section" id="summary">
+            <h2>Summary</h2>
+            <p>Highly motivated and results-oriented B.Tech. (CSE) first-year student with a strong foundation in video editing and production. Eager to leverage skills in shooting, editing, and software proficiency to contribute to a creative and collaborative team environment as a freelancer. Possesses a passion for learning and a commitment to delivering exceptional results that exceed client expectations.</p>
         </div>
-        <div class="job">
-            <h3>Videography & Editing Intern <span>(2024)</span></h3>
+
+        <div class="section" id="experience">
+            <h2>Experience</h2>
+            <h3>Freelance Videographer & Editor (2024 - Present)</h3>
             <ul>
-                <li>@murugun_mun (June 2024)</li>
-                <li>@krmun.vaishali (August 2024)</li>
+                <li>Managed all aspects of video production for various clients, including shooting, editing, and post-production.</li>
+                <li>Collaborated with clients to understand their needs and develop creative concepts for video projects.</li>
+                <li>Utilized video editing software (Adobe Premiere Pro, VN Edit, Capcut) to create engaging and impactful videos.</li>
+                <li>Delivered high-quality videos that met client deadlines and exceeded expectations.</li>
+            </ul>
+            <h3>Videography & Editing Intern (Volunteer)</h3>
+            <ul>
+                <li>@murugun_mun (1 - 2 June 2024)</li>
+                <li>@krmun.vaishali (8 - 9 August 2024)</li>
+                <li>Gained valuable experience in shooting and editing video content for various purposes.</li>
+                <li>Assisted with camera operation, lighting setup, and audio recording.</li>
             </ul>
         </div>
-    </section>
 
-    <section id="portfolio" class="container fade-in">
-        <h2>Portfolio</h2>
-        <p>Check out my work: <a href="https://drive.google.com/drive/folders/12OJoDAm3zokX99aUTDyAHrpMtjE_a33C" target="_blank">View Portfolio</a></p>
-    </section>
+        <div class="section" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Video Editing (Adobe Premiere Pro, VN Edit, Capcut)</li>
+                <li>Videography (using Samsung S23, experience with cinematic shots)</li>
+                <li>Communication</li>
+                <li>Time Management</li>
+                <li>Collaboration</li>
+                <li>Eager Learner</li>
+                <li>Excellent Problem Solver</li>
+            </ul>
+        </div>
 
-    <section id="contact" class="container fade-in">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:rohit.rsware@gmail.com">rohit.rsware@gmail.com</a></p>
-        <p>Phone: <a href="tel:+919811885542">+91 9811885542</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/rohit-sharma-601557304" target="_blank">View Profile</a></p>
-    </section>
+        <div class="section" id="education">
+            <h2>Education</h2>
+            <h3>Delhi Technical University | Greater Noida, Uttar Pradesh, India (2024 - Present)</h3>
+            <p>B.Tech. (CSE) (Expected Graduation Year: 2028)</p>
+            <h3>Delhi World Public School | Noida Extension (2018 - 2024)</h3>
+        </div>
 
-    <footer>
-        <p>© 2024 Rohit Sharma. All rights reserved.</p>
-    </footer>
+        <div class="section" id="portfolio">
+            <h2>Portfolio</h2>
+            <p><a href="https://drive.google.com/drive/folders/12OJoDAm3zokX99aUTDyAHrpMtjE_a33C" target="_blank">View Portfolio</a></p>
+        </div>
+    </div>
 
-    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const container = document.querySelector('.container');
+            const sections = document.querySelectorAll('.section');
+
+            container.style.opacity = '1';
+            container.style.transform = 'translateY(0)';
+
+            setTimeout(() => {
+                sections.forEach((section, index) => {
+                    setTimeout(() => {
+                        section.style.opacity = '1';
+                        section.style.transform = 'translateX(0)';
+                    }, index * 200);
+                });
+            }, 500);
+        });
+    </script>
 </body>
 </html>
