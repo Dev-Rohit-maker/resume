@@ -1,2 +1,2 @@
 # resume
-My Resume from complete journey till now 
+My Resume from a complete journey till now 
